@@ -1,14 +1,6 @@
 var path = anime.path('.logo path:nth-child(1)');
 var colorchange = '.border';
 
-var ani = function randomValues(){ anime({
-    targets: '.box',
-    translateX: 1700,
-    backgroundColor: '#FFF',
-    duration: 2000,
-    easing: 'spring(1, 80, 10, 0)'
-});
-}
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
