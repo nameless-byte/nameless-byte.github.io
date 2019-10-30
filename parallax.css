@@ -187,22 +187,22 @@ button {
 .logo path:nth-child(1) {
 	stroke-dasharray: 869.1591186523438;
 	stroke-dashoffset: 869.1591186523438;
-	animation: line-anim 2s ease forwards;
+	animation: line-anim 2s cubic-bezier(1, -0.07, 0.43, 0.93) forwards;
 }
 .logo path:nth-child(2) {
 	stroke-dasharray: 1572;
 	stroke-dashoffset: 1572;
-	animation: line-anim 2s ease forwards 0.3s;
+	animation: line-anim 2s cubic-bezier(1, -0.07, 0.43, 0.93) forwards 0.3s;
 }
 .logo path:nth-child(3) {
 	stroke-dasharray: 1249;
 	stroke-dashoffset: 1249;
-	animation: line-anim 2s ease forwards 0.6s;
+	animation: line-anim 2s cubic-bezier(1, -0.07, 0.43, 0.93) forwards 0.6s;
 }
 .logo path:nth-child(4) {
 	stroke-dasharray: 1361;
 	stroke-dashoffset: 1361;
-	animation: line-anim 2s ease forwards 0.9s;
+	animation: line-anim 2s cubic-bezier(1, -0.07, 0.43, 0.93) forwards 0.9s;
 }
 .line {
 	position: absolute;
