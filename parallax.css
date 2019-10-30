@@ -2,14 +2,12 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	background-color: rgba(53, 51, 51, 0.3);
-}
-.parallax {
 	background-image: url("images/70574298_p0.png");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: center;
+}
+.parallax {
 	overflow: hidden;
 	position: relative;
 }
