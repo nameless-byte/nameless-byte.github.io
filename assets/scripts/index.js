@@ -19,7 +19,11 @@ function colorchangefunc() {
     });
 }
 colorchangefunc();
-function fitElementToParent(el, padding) {
+window.addEventListener('scroll', function() {
+  let scrollTop = window.scrollY / 20;
+  document.body.setAttribute("style", `background-position-y: ${scrollTop - 700}px;`);
+});
+/*function fitElementToParent(el, padding) {
     var timeout = null;
     function resize() {
       if (timeout) clearTimeout(timeout);
@@ -104,3 +108,4 @@ function fitElementToParent(el, padding) {
     init();
   
 })();
+*/
