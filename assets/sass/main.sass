@@ -1,0 +1,236 @@
+﻿body, html 
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+body 
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%) fixed center no-repeat
+
+.parallax 
+  overflow: hidden
+  position: relative
+
+.border 
+  background-color: #282E34
+  height: 5px
+  width: 100%
+
+.content 
+  display: flex
+  align-items: center
+  justify-content: center
+
+
+.fadej 
+  opacity: 0
+
+/* BACKGROUNDS */
+.big 
+  height: 100vh
+
+.small 
+  height: 50vh
+
+#particles-js 
+  position: fixed
+  width: 100%
+  height: 100%
+
+.sign 
+  width: 100%
+  text-align: center
+
+.row 
+  display: grid
+  column-gap: 2vh
+  row-gap: 2vh
+
+.info-box 
+  display: flex
+  position: absolute
+  width: 60%
+  height: 60%
+  top: 50%
+  left: 50%
+  justify-items: stretch
+  transform: translate(-50%, -50%)
+
+.grid-big 
+  grid-template-rows: 1fr 1fr 1fr
+  grid-template-columns: 1fr 1fr 1fr
+
+.grid-small 
+  grid-template-rows: 1fr 1fr
+  grid-template-columns: 1fr 1fr
+
+.scroll 
+  padding: 20px
+  font-family: Times New Roman
+  font-size: 50px
+  color: #fff
+  background-color: #777
+  cursor: default
+
+button 
+  background-color: #4CAF50
+  color: white
+  padding: 14px 20px
+  margin-top: 5px
+  border: none
+  cursor: pointer
+  width: 100%
+
+/* NAV */
+.nav 
+  left: 50%
+  display: flex
+  position: fixed
+  border-radius: 20px
+  min-width: 250px 
+  width: 20%
+  justify-content: center
+  height: 50px
+  top: 0
+  transform: translate(-50%)
+  opacity: 1
+  background-color: none
+  background-color: rgba(80,80,80,.35)
+  z-index: 2
+
+.nav a, li a 
+  font-family: Poppins
+  position: relative
+  color: #f2f2f2
+  text-align: center
+  padding-top: 14px
+  padding-right: 16px
+  padding-left: 16px
+  padding-bottom: 0px
+  text-decoration: none
+  font-size: 17px
+  height: 37px
+  font-size: 20px
+  user-select: none
+
+.nav a:after 
+  position: absolute
+  bottom: 0
+  left: 0
+  right: 0
+  margin: auto
+  width: 0%
+  content: '.'
+  color: transparent
+  background: #aaa
+  height: 1px
+  text-align: left
+  content: '.'
+  margin: 0
+  opacity: 0
+
+.info-nav 
+  display: flex
+  justify-content: space-evenly
+  align-items: center
+  flex-direction: column
+  width: 5%
+
+.thisis 
+  top: 30%
+  left: 15%
+
+.sampletext 
+  top: 45%
+  left: 15%
+
+.onyong 
+  top: 10%
+  transform: translate(-50%)
+  left: 50%
+
+@media screen and (max-width: 1100px) 
+  .thisis 
+    left: 4%
+  
+  .sampletext 
+    left: 4%
+  
+  .info-box 
+    left: 45%
+    width: 90%
+    transform: translate(-45%, -50%)
+  
+
+.info-button 
+  background-color: #4CAF50
+  width: 20px
+  height: 20px
+  border-radius: 50%
+
+.info-content 
+  background-color: rgb(107, 107, 107)
+  height: 100%
+  width: 95%
+
+.baboom 
+  position: relative
+  display: none
+
+
+#probar 
+  height: 30px
+  width: 200px
+  margin-top: 10px
+  margin-right: 10px
+  margin-left: 10px
+  padding: 0
+  background: none
+
+.variables 
+  width: 40%
+  min-height: 20px
+  margin: 10px
+  padding: 20px
+  font-family: Times New Roman
+  font-size: 20px
+  letter-spacing: 8px
+  color: #fff
+  background: rgba(102, 102, 102, 0.2)
+  cursor: default
+
+#varbox 
+  position: absolute 
+  width: 100% 
+  top: 80px 
+  left: 100px
+  height: 500px
+
+
+.animation-box, .row 
+  position: absolute 
+  width: 100% 
+  height: 100%
+  pointer-events: none
+
+.sphere path 
+  fill: url(#sphereGradient)
+  stroke-width: 1px
+  stroke: rgba(80,80,80,.35)
+  backface-visibility: hidden
+
+.sphere-animation 
+  position: absolute
+  top: 50%
+  left: 50%
+  width: 580px
+  height: 580px
+  margin: -290px 0 0 -290px
+
+.animation-wrapper 
+  width: 30%
+  padding-bottom: 50%
+
+svg 
+  overflow: visible
+  position: absolute
+
