@@ -305,8 +305,6 @@ svg {
 .drop {
   position: absolute;
   top: -6%;
-  height: 2px;
-  width: 2px;
   background-color: white;
 }
 
